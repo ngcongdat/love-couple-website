@@ -1,0 +1,390 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 90px;
+    background-color: rgba(214, 81, 109, 1);
+    position: relative;
+
+}
+
+.header .logo {
+    text-decoration: none;
+    font-size: 3rem;
+    padding-left: 1rem;
+    color: #FFF;
+    line-height: 90px;
+    font-family: 'Engagement', cursive;
+}
+
+.header .icon-menu {
+    margin: 25px;
+    float: right;
+    padding: 0.2rem;
+    color: #FFF;
+}
+
+.header .nav {
+    background-color: rgba(214, 81, 109, 1);
+
+    display: none;
+}
+
+.header:hover .nav {
+    background-color: rgba(214, 81, 109, 1);
+    display: block;
+}
+
+.header .menu {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header .menu li {
+    padding: 0.5rem 1rem;
+    transition: all 0.5s;
+}
+
+.header .menu li:hover {
+    background-color: rgb(222, 69, 100);
+}
+
+.header .menu a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.sliver {
+    height: 500px;
+    background-image: url(./image/couple-6.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+}
+
+.slider-overlay {
+    height: 100%;
+    background-color: rgba(214, 81, 109, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.slider-overlay .couple {
+    font-size: 5rem;
+    color: #FFF;
+    font-family: 'Engagement', cursive;
+    margin: 2rem 0;
+}
+
+.slider-overlay .line {
+    border-top: 1px solid #FFF;
+    display: inline-block;
+    margin: 0.5rem 10px;
+    width: 5rem;
+}
+
+.slider-overlay .intro {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+.times {
+    margin-top: 3rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.times-items {
+    background-color: #FFF;
+    width: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+    padding: 2rem 1rem;
+}
+
+.times-items .numbers {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.times-items .numbers-info {
+    margin: 0;
+    color: rgba(214, 81, 109, 1);
+    padding-top: 1rem;
+    font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+.grid {
+    padding: 2rem 1rem;
+    display: grid;
+}
+
+.grid-title {
+    text-align: center;
+    padding: 0 1rem 2rem 1rem;
+}
+
+.grid-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: 0px 0px 30px 0px rgba(230, 230, 230, 0.5);*/
+    padding: 1rem;
+}
+
+.title-items {
+    font-family: 'Engagement', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.line-items {
+    border-top: 1px solid rgba(214, 81, 109, 1);
+    display: inline-block;
+    margin: 0.5rem 10px;
+    width: 5rem;
+}
+
+.heart-items {
+    font-size: 1.5rem;
+    color: rgba(214, 81, 109, 1);
+}
+
+.grid-items .man {
+    background-image: url(./image/couple-2.jpg);
+}
+
+.grid-items .woman {
+    background-image: url(./image/couple-13.jpg);
+}
+
+.grid-items .first-story {
+    background-image: url(./image/couple-12.jpg);
+}
+
+.grid-items .second-story {
+    background-image: url(./image/couple-5.jpg);
+}
+
+.grid-items .third-story {
+    background-image: url(./image/story3.jpg);
+}
+
+.pics-layout {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.pics-layout .overlay {
+    height: 100%;
+    background-color: rgba(214, 81, 109, 0.7);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFF;
+    opacity: 0;
+    transition: all 0.4s;
+    transform: scale(0);
+    text-decoration: none;
+}
+
+.pics-layout:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.name {
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.position {
+    margin: 0;
+    color: rgba(214, 81, 109, 1);
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+
+.info,
+.info-left,
+.info-right {
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+    color: rgb(200, 200, 200);
+}
+
+.social-network a {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(200, 200, 200);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.2rem;
+    text-decoration: none;
+}
+
+
+.social-network a:hover {
+    color: rgba(214, 81, 109, 1);
+    border: 1px solid rgba(214, 81, 109, 1);
+}
+
+.mobile-divider {
+    text-align: center;
+}
+
+.line-mobile {
+    border-top: 1px solid rgb(200, 200, 200);
+    display: inline-block;
+    margin: 0.3rem 10px;
+    width: 5rem;
+}
+
+.heart-mobile {
+    font-size: 1rem;
+    color: rgb(200, 200, 200);
+}
+
+.button {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: rgba(214, 81, 109, 1);
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    border-radius: 0.25rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.gallery .grid-title {
+    grid-column: 1/4;
+}
+
+.gallery-container {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-layout {
+    width: 150px;
+    height: 150px;
+    /*background-image: url(https://picsum.photos/200/200);*/
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.gallery-layout .overlay {
+    height: 100%;
+    background-color: rgb(214, 81, 109, 0.7);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFF;
+    opacity: 0;
+    transition: all 0.4s;
+    transform: scale(0);
+    text-decoration: none;
+}
+
+.gallery-layout:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.gallery-container .first-pics {
+    background-image: url(./image/couple-1.jpg);
+    
+}
+
+.gallery-container .second-pics {
+    background-image: url(./image/couple-3.jpg);
+}
+
+.gallery-container .third-pics {
+    background-image: url(./image/couple-4.jpg);
+}
+
+.gallery-container .fourth-pics {
+    background-image: url(./image/couple-6.jpg);
+    background-position: -50px 0;
+}
+
+.gallery-container .fifth-pics {
+    background-image: url(./image/couple-7.jpg);
+}
+
+.gallery-container .sixth-pics {
+    background-image: url(./image/couple-8.jpg);
+}
+
+.gallery-container .seventh-pics {
+    background-image: url(./image/couple-9.jpg);
+    background-position: 30px 0;
+
+}
+
+.gallery-container .eighth-pics {
+    background-image: url(./image/couple-10.jpg);
+}
+
+.gallery-container .nineth-pics {
+    background-image: url(./image/couple-11.jpg);
+}

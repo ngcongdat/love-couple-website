@@ -1,0 +1,29 @@
+.gallery-layout {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    backgCround-position: center;
+    border-radius: 1rem;
+
+}
+
+.gallery-layout .overlay {
+    height: 100%;
+    background-color: rgb(214, 81, 109, 0.7);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFF;
+    opacity: 0;
+    transition: all 0.4s;
+    transform: scale(0);
+    text-decoration: none;
+}
+
+.gallery-layout:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}

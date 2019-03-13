@@ -1,0 +1,16 @@
+html {
+	margin: 1rem 0;
+}
+
+.btn {
+
+	padding: 1rem 2rem;
+	background-color: rgba(214, 81, 109, 1);
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.2rem;
+	border-radius: 0.25rem;
+}
